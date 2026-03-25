@@ -41314,12 +41314,16 @@ function $z() {
             sort_order: h
         }));
         if (c.length > 0) {
-            const {error: d} = await B.from("updates").insert(c);
-            if (d)
-                return J.error("خطأ في الحفظ: " + d.message)
-        }
-        J.success("تم حفظ الإضافات!"),
-        s()
+           const { data, error } = await B.from("updates").insert(c);
+
+console.log("DATA:", data);
+console.log("ERROR:", error);
+
+if (error) {
+  return J.error("خطأ: " + error.message);
+}
+
+J.success("تم الحفظ");
     }
     ;
     return n ? u.jsx("p", {
