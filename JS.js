@@ -33421,7 +33421,7 @@ const yw = [{
     path: "/apply",
     section: "apply"
 }, {
-    label: "طاقم الإدارة",
+    label: "الاعضاء",
     path: "/staff",
     section: "staff"
 }];
