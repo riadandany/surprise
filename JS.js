@@ -33570,7 +33570,7 @@ function kV() {
                 onMouseEnter: s,
                 children: [u.jsx(zn, {
                     className: "w-6 h-6"
-                }), "عملات S U R P R I S E"]
+                }), "استبدال نقاط الشرف"]
             }), u.jsxs("div", {
                 className: "hidden sm:flex items-center gap-6",
                 children: [vw.map(i => u.jsxs(Pn, {
@@ -42632,7 +42632,7 @@ function Yz() {
                     })
                 }), u.jsx("h1", {
                     className: "font-display text-4xl md:text-5xl neon-text text-primary mb-4",
-                    children: "عملات S U R P R I S E"
+                    children: "استبدال نقاط الشرف"
                 }), u.jsx("p", {
                     className: "text-muted-foreground text-lg",
                     children: "تصفح المنتجات المتاحة واستبدل عملاتك"
@@ -43274,7 +43274,7 @@ function Jz({onUnlock: e}) {
                 })
             }), u.jsx("h2", {
                 className: "font-display text-xl text-center mb-6 neon-text text-primary",
-                children: "كود الدخول - عملات S U R P R I S E"
+                children: "كود الدخول - استبدال نقاط الشرف"
             }), u.jsxs("form", {
                 onSubmit: r,
                 className: "space-y-4",
@@ -43589,7 +43589,7 @@ function t6() {
                         y: 0
                     },
                     className: "font-display text-3xl neon-text text-primary",
-                    children: "لوحة المطور - عملات S U R P R I S E"
+                    children: "لوحة المطور "
                 }), u.jsxs(G, {
                     onClick: () => t(!1),
                     variant: "outline",
@@ -43721,7 +43721,7 @@ function r6() {
             className: "flex items-center gap-2 px-4 py-2.5 rounded-full bg-primary text-primary-foreground font-medium text-sm neon-box hover:bg-primary/90 transition-colors shadow-lg",
             children: [u.jsx(XR, {
                 className: "w-4 h-4"
-            }), t ? "الموقع الرئيسي" : "عملات S U R P R I S E"]
+            }), t ? "الموقع الرئيسي" : "استبدال نقاط الشرف"]
         })
     })
 }
