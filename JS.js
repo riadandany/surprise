@@ -41314,16 +41314,12 @@ function $z() {
             sort_order: h
         }));
         if (c.length > 0) {
-           const { data, error } = await B.from("updates").insert(c);
-
-console.log("DATA:", data);
-console.log("ERROR:", error);
-
-if (error) {
-  return J.error("خطأ: " + error.message);
-}
-
-J.success("تم الحفظ");
+            const {error: d} = await B.from("updates").insert(c);
+            if (d)
+                return J.error("خطأ في الحفظ: " + d.message)
+        }
+        J.success("تم حفظ الإضافات!"),
+        s()
     }
     ;
     return n ? u.jsx("p", {
@@ -41398,7 +41394,7 @@ J.success("تم الحفظ");
         })]
     })
 }
-const Fz = "20112020";
+const Fz = "MR2011";
 function Vz({onUnlock: e}) {
     const [t,n] = g.useState("")
       , r = s => {
