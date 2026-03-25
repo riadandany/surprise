@@ -42840,7 +42840,7 @@ function Yz() {
                                             children: "المبلغ المدفوع"
                                         }), u.jsxs("p", {
                                             className: "font-display text-lg text-primary",
-                                            children: [d.price, " عملة"]
+                                            children: [d.price, "نقطة شرف"]
                                         })]
                                     }), u.jsxs("div", {
                                         className: "text-left",
@@ -42849,7 +42849,7 @@ function Yz() {
                                             children: "الرصيد المتبقي"
                                         }), u.jsxs("p", {
                                             className: "font-display text-lg text-green-400",
-                                            children: [l, " عملة"]
+                                            children: [l, " نقطة شرف"]
                                         })]
                                     })]
                                 })]
