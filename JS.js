@@ -42635,7 +42635,7 @@ function Yz() {
                     children: "استبدال نقاط الشرف"
                 }), u.jsx("p", {
                     className: "text-muted-foreground text-lg",
-                    children: "تصفح المنتجات المتاحة واستبدل عملاتك"
+                    children: "انشئ حساب باسمك داخل العبة ونفس يوزرك على الديسكورد وسيتم ايداع نقاط تلقائيا قبل نهاية الموسم ب 3 ايام من انتهاء الموسم"
                 }), s && u.jsxs(Se.div, {
                     initial: {
                         opacity: 0,
@@ -42873,7 +42873,7 @@ function Yz() {
                                     className: "w-5 h-5 shrink-0"
                                 }), u.jsx("p", {
                                     className: "text-sm font-medium",
-                                    children: "يرجى أخذ سكرين شوت لهذه الشاشة وإرساله على الديسكورد لاستلام الخدمة"
+                                    children: "يرجى عمل لقطة شاشة وارسالها في صفحة تأكيد الشراء 🧾🏷 بالديسكورد الخاص بالعصابة لاستلام مكافئتك "
                                 })]
                             }), u.jsx(G, {
                                 onClick: _,
