@@ -33683,7 +33683,7 @@ async function cE() {
         heroTitle: "S U R P R I S E",
         heroSubtitle: "بقيادة Mr Mohannad",
         serverIp: "S U R P R I S E",
-        discordLink: "https://discord.gg/",
+        discordLink: "https://discord.gg/xC4ayG62PR",
         description: "بتصميم وتطوير المبرمج : Mr Riad",
         features: []
     } : {
