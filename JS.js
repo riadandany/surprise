@@ -37941,7 +37941,7 @@ function IU() {
                 initial: "initial",
                 animate: "animate",
                 className: "font-display text-4xl md:text-5xl text-center neon-text text-primary mb-4",
-                children: "طاقم الإدارة"
+                children: "الاعضاء"
             }), u.jsx(Se.p, {
                 variants: Lw,
                 initial: "initial",
